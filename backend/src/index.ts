@@ -17,8 +17,8 @@ app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
 
 
-app.listen(4000, () => {
-    console.log("server running on port 4000");
+app.listen(6000, () => {
+    console.log("server running on port 6000");
 })
 
 
